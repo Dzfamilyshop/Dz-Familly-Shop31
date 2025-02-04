@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب المنتج - الجزائر</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            direction: rtl;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header nav ul li {
+            display: inline-block;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #18BC9C;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 50px 20px;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #2C3E50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 16px;
+            color: #2C3E50;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select,
+        input {
+            width: 80%;
+            padding: 15px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            background-color: #f4f4f4;
+            transition: all 0.3s ease;
+            margin: 0 auto;
+            display: block;
+        }
+
+        select:focus,
+        input:focus {
+            border-color: #18BC9C;
+            background-color: white;
+        }
+
+        button.btn-submit {
+            width: 80%;
+            padding: 15px;
+            background-color: #18BC9C;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button.btn-submit:hover {
+            background-color: #16A085;
+        }
+
+        .product-image {
+            display: block;
+            width: 80%;
+            max-width: 500px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-description {
+            text-align: center;
+            font-size: 16px;
+            color: #2C3E50;
+            margin-top: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #18BC9C;
+        }
+
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .form-group input,
+            .form-group select,
+            button.btn-submit {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>طلب المنتج</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتج</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="products" class="section">
+            <div class="container">
+                <h2>اختر منتجك</h2>
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="column">
+                        <img src="moulineximg.jpg" alt="صورة المنتج" class="product-image">
+                        <p class="product-description">أحدث طراز من مولينيكس، مع مزايا رائعة لتسهيل حياتك اليومية.</p>
+                    </div>
+                    <div class="column">
+                        <img src="Moulinex-bras-mixeur-quickchef-DD655D10-1000w-1.jpg" alt="صورة المنتج" class="product-image">
+                        <p class="product-description">قوة 1000 واط مع تصميم مميز لجعل المزيج أكثر كفاءة.</p>
+                    </div>
+                </div>
+
+                <p><strong>اسم المنتج:</strong> مولينيكس إيزيسيف 450 وات</p>
+                <p><strong>السعر: 6700DA</strong></p>
+
+                <form id="orderForm" action="https://script.google.com/macros/s/AKfycbzyJ150-vN53Y1_i-GD7XxJr76ymFvBBsyG1Uo6rpidK9gzgxdx_OBFVcDfJrKnkSKltg/exec" method="POST">
+                    <div class="form-group">
+                        <label for="province">الولاية:</label>
+                        <select id="province" name="province" required>
+                            <option value="Algiers" data-home="650" data-stopdesk="300">الجزائر</option>
+                            <option value="Oran" data-home="500" data-stopdesk="200">وهران</option>
+                            <option value="Constantine" data-home="400" data-stopdesk="150">قسنطينة</option>
+                            <option value="Adrar" data-home="1000" data-stopdesk="700">أدرار</option>
+                            <option value="Chlef" data-home="800" data-stopdesk="400">الشلف</option>
+                            <option value="Laghouat" data-home="900" data-stopdesk="500">الاغواط</option>
+                            <option value="Oum El Bouaghi" data-home="850" data-stopdesk="450">أم البواقي</option>
+                            <option value="Batna" data-home="950" data-stopdesk="550">باتنة</option>
+                            <option value="Béjaïa" data-home="700" data-stopdesk="350">بجاية</option>
+                            <option value="Biskra" data-home="800" data-stopdesk="400">بسكرة</option>
+                            <option value="Blida" data-home="600" data-stopdesk="350">البليدة</option>
+                            <option value="Bouira" data-home="750" data-stopdesk="400">البويرة</option>
+                            <option value="Tamanghasset" data-home="1200" data-stopdesk="600">تامنغاست</option>
+                            <option value="Tébessa" data-home="1100" data-stopdesk="500">تبسة</option>
+                            <option value="Tiaret" data-home="900" data-stopdesk="450">تيارت</option>
+                            <option value="Tizi Ouzou" data-home="650" data-stopdesk="300">تيزي وزو</option>
+                            <option value="Al-Tarf" data-home="950" data-stopdesk="550">طارف</option>
+                            <option value="Tlemcen" data-home="1050" data-stopdesk="600">تلمسان</option>
+                            <option value="Tiaret" data-home="900" data-stopdesk="450">تيارت</option>
+                            <option value="El-Oued" data-home="1200" data-stopdesk="600">الأغواط</option>
+                            <option value="Annaba" data-home="700" data-stopdesk="350">عنابة</option>
+                            <!-- Add more provinces as necessary -->
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="delivery">اختيار نوع التوصيل:</label>
+                        <select id="delivery" name="delivery" required>
+                            <option value="home">التوصيل إلى المنزل</option>
+                            <option value="stopdesk">التوصيل إلى أقرب نقطة</option>
+                        </select>
+                    </div>
+
+                    <h3>السعر الإجمالي: <span id="totalPrice">6950DA</span></h3>
+                    <div class="form-group">
+                        <label for="name">اسمك:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف:</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">العنوان:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                
+
+                    <button type="submit" class="btn-submit">إرسال الطلب</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>تواصل معنا</h2>
+                <p>تابعنا عبر وسائل التواصل الاجتماعي أو تواصل معنا مباشرة:</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i> فيسبوك</a>
+                    <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i> انستجرام</a>
+                    <a href="https://whatsapp.com/send?phone=1234567890" target="_blank"><i class="fab fa-whatsapp"></i> واتساب</a>
+                </div>
+                <p>البريد الإلكتروني: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>الهاتف: +21312345678</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 شركتك. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function calculateTotal() {
+                let productPrice = 6700;
+                let province = $('#province').val();
+                let deliveryOption = $('#delivery').val();
+
+                let provincePrice = parseFloat($('#province option:selected').data(deliveryOption));
+                let total = productPrice + provincePrice;
+                $('#totalPrice').text(total.toFixed(2) + 'DA');
+            }
+
+            $('#province, #delivery').change(function () {
+                calculateTotal();
+            });
+
+            $('#orderForm').submit(function (e) {
+                e.preventDefault(); // Prevent the form from submitting
+                alert('شكراً لطلبك! سيتم معالجته قريبًا.');
+            });
+
+            // Initial calculation
+            calculateTotal();
+        });
+    </script>
+</body>
+
+</html>
